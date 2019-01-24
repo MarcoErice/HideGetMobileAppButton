@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hide-get-mobile-app-button-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/hideGetMobileAppButton/HideGetMobileAppButtonApplicationCustomizer.js",
+          "manifest": "./src/extensions/hideGetMobileAppButton/HideGetMobileAppButtonApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HideGetMobileAppButtonApplicationCustomizerStrings": "lib/extensions/hideGetMobileAppButton/loc/{locale}.js"
+  }
+}

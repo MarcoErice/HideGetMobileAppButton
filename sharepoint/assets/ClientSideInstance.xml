@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="HideGetMobileAppButton"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="1b4e5a17-1df5-4fc2-9250-0cde8e8bda36"
+        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </ClientSideComponentInstance>
+</Elements>

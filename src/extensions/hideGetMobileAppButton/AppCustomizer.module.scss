@@ -1,0 +1,10 @@
+
+/* remove mobile app & feedback buttons */
+div[class^="feedback_"] {    
+    display: none !important;
+}
+
+// create a dummy app to make sure CSS gets loaded
+.app{
+    background-color: transparent;
+}

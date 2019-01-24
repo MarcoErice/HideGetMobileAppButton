@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://syntellse.sharepoint.com/sites/intranet_se/SitePages/Home.aspx",
+      "customActions": {
+        "1b4e5a17-1df5-4fc2-9250-0cde8e8bda36": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "hideGetMobileAppButton": {
+      "pageUrl": "https://syntellse.sharepoint.com/sites/intranet_se/SitePages/Home.aspx",
+      "customActions": {
+        "1b4e5a17-1df5-4fc2-9250-0cde8e8bda36": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}
